@@ -16,7 +16,7 @@ jobs:
       - name: Skonfiguruj środowisko pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 10
 
       - name: Skonfiguruj środowisko Node.js
         uses: actions/setup-node@v4
