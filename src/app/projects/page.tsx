@@ -50,7 +50,7 @@ export default function ProjectsPage() {
         <div className="container mx-auto px-4 py-16 max-w-5xl">
             <div className="space-y-4 mb-16 text-center max-w-2xl mx-auto">
                 <h1 className="text-4xl font-heading font-bold tracking-tighter sm:text-5xl">
-                    Wybrane <span className="text-accent">Realizacje</span>
+                    Wybrane <span className="text-accent-text">Realizacje</span>
                 </h1>
                 <p className="text-muted-foreground text-lg">
                     Zobacz nasze ostatnie prace budowlane i wykończeniowe. Przekonaj się o jakości, przeglądając efekty przed i po zakończeniu remontu.

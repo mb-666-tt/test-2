@@ -11,7 +11,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 py-16 md:py-24 max-w-5xl">
             <div className="space-y-4 mb-16 text-center max-w-2xl mx-auto">
                 <h1 className="text-4xl font-heading font-bold tracking-tighter sm:text-5xl">
-                    Darmowa <span className="text-accent">Wycena</span>
+                    Darmowa <span className="text-accent-text">Wycena</span>
                 </h1>
                 <p className="text-muted-foreground text-lg">
                     Jesteś zainteresowany naszymi usługami? Masz pytania? Skontaktuj się z nami, a my odpowiemy najszybciej jak to możliwe.

@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2 max-w-3xl">
               <h1 className="text-4xl font-heading font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none">
-                Profesjonalne Usługi <span className="text-accent">Budowlane</span>
+                Profesjonalne Usługi <span className="text-accent-text">Budowlane</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-6">
                 Specjalizujemy się w pracach wykończeniowych, glazurniczych i innych małych zadaniach budowlanych. Szybko, solidnie i z dbałością o każdy detal.
@@ -80,15 +80,15 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-16 md:py-24 bg-slate-900 text-slate-50 dark:bg-slate-950 relative overflow-hidden">
-        <div className="absolute inset-0 z-0 bg-slate-900/50 mix-blend-multiply"></div>
+      <section className="w-full py-16 md:py-24 bg-primary text-background relative overflow-hidden">
+        <div className="absolute inset-0 z-0 bg-primary/50 mix-blend-multiply"></div>
         <div className="container px-4 md:px-6 relative z-10">
           <div className="flex flex-col items-center justify-center space-y-6 text-center">
             <div className="space-y-3">
               <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Potrzebujesz fachowca?
               </h2>
-              <p className="max-w-[600px] mx-auto text-slate-300 md:text-xl/relaxed">
+              <p className="max-w-[600px] mx-auto text-background/70 md:text-xl/relaxed">
                 Skontaktuj się z nami już dziś, aby omówić szczegóły Twojego projektu i otrzymać bezpłatną wycenę.
               </p>
             </div>

@@ -39,10 +39,10 @@ This project is a simple website which can be used as a portfolio website. It sh
 5. Footer - page with links to different social media platforms.
 
 # Color and font scheme
-1. Primary color - #1F2933
-2. Background color - #F5F7F6
-3. Alternative background color - #E4E7EB
-4. Call to action - #C7A14A
+1. Primary color - #1F3F5B
+2. Background color - #E6E3DF
+3. Alternative background color - #D6D1CB
+4. Call to action - #C8B8A6
 5. Header font - Space Grotesk
 6. Body font - Manrope
 
@@ -55,3 +55,9 @@ This project is a simple website which can be used as a portfolio website. It sh
 1. Use placeholder text in Polish that could be edited later on.
 2. Use placeholder images that could be edited later on. Make sure to generate at least 3 different galleries of images and a hero image for each gallery which should be movable to show before and after images of the project.
 3. email@me.com for email placeholder
+
+# Development and debugging
+1. Always run the dev server (`pnpm dev`) when making changes so they can be verified in real time
+2. After making visual or styling changes, open the site in a Chrome browser preview to verify the result
+3. Take screenshots of affected pages to confirm the changes look correct before considering the task complete
+4. Run `pnpm build` to ensure the static site builds without errors after any code changes

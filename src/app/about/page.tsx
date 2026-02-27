@@ -11,7 +11,7 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                     <h1 className="text-4xl font-heading font-bold tracking-tighter sm:text-5xl">
-                        Od lat budujemy z <span className="text-accent">pasją</span>
+                        Od lat budujemy z <span className="text-accent-text">pasją</span>
                     </h1>
                     <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                         <p>
@@ -27,11 +27,11 @@ export default function AboutPage() {
 
                     <div className="grid grid-cols-2 gap-6 pt-6 border-t border-muted">
                         <div>
-                            <p className="text-4xl font-heading font-bold text-accent">10+</p>
+                            <p className="text-4xl font-heading font-bold text-accent-text">10+</p>
                             <p className="text-sm text-muted-foreground mt-2">Lat doświadczenia</p>
                         </div>
                         <div>
-                            <p className="text-4xl font-heading font-bold text-accent">150+</p>
+                            <p className="text-4xl font-heading font-bold text-accent-text">150+</p>
                             <p className="text-sm text-muted-foreground mt-2">Zrealizowanych projektów</p>
                         </div>
                     </div>
