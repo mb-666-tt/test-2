@@ -35,8 +35,8 @@ const projects = [
         id: 3,
         title: "Metamorfoza kuchni",
         description: "Przygotowanie pomieszczenia pod nową zabudowę, zmiana przyłączy elektrycznych i wod-kan, ułożenie fartucha z płytek nad blatem roboczym.",
-        beforeImage: "https://images.unsplash.com/photo-1504307651254-35680f356f12?w=1600&q=80",
-        afterImage: "https://images.unsplash.com/photo-1556910103-1c02745a872f?w=1600&q=80",
+        beforeImage: "https://images.unsplash.com/photo-1481513511100-fd3df8b0fb6c?w=1600&q=80", // Abandoned/old building feel
+        afterImage: "https://images.unsplash.com/photo-1556910110-4c405973edda?w=1600&q=80", // Dark green/black modern kitchen feel
         gallery: [
             "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800&q=80",
             "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?w=800&q=80",
