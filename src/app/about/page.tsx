@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export const metadata = {
-    title: "O Nas | Bud-Fix",
-    description: "Dowiedz się więcej o naszej firmie i doświadczeniu budowlanym.",
+    title: "O Mnie | Bud-Fix",
+    description: "Dowiedz się więcej o mojej działalności i doświadczeniu budowlanym.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
                     </h1>
                     <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                         <p>
-                            Bud-Fix to jednoosobowa firma budowlana, która zrodziła się z zamiłowania do precyzji i solidnego wykonania. Przez lata zdobywałem doświadczenie przy różnorodnych projektach, od drobnych napraw po generalne remonty mieszkań i domów.
+                            Prowadzę jednoosobową firmą budowlaną, która zrodziła się z zamiłowania do precyzji i solidnego wykonania. Przez lata zdobywałem doświadczenie przy różnorodnych projektach, od drobnych napraw po generalne remonty mieszkań i domów.
                         </p>
                         <p>
                             Moim priorytetem jest nie tylko zadowolenie klienta, ale również trwałość i estetyka wykonywanych prac. Specjalizuję się w pracach wykończeniowych, takich jak układanie glazury i gresu, malowanie, szpachlowanie oraz zabudowy z płyt kartonowo-gipsowych.

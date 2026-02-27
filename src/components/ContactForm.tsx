@@ -21,7 +21,7 @@ export function ContactForm() {
 
     return (
         <div className="w-full max-w-md mx-auto p-6 bg-card rounded-xl shadow-sm border border-muted">
-            <h3 className="text-2xl font-heading font-bold mb-6 text-center">Napisz do nas</h3>
+            <h3 className="text-2xl font-heading font-bold mb-6 text-center">Skontaktuj się</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
