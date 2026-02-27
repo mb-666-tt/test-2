@@ -39,7 +39,7 @@ export default function AboutPage() {
 
                 <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl">
                     <Image
-                        src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80"
+                        src="https://images.unsplash.com/photo-1541888081622-154b73b5220c?w=800&q=80"
                         alt="Właściciel firmy przy pracy"
                         fill
                         className="object-cover"
