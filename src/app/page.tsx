@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2 max-w-3xl">
               <h1 className="text-4xl font-heading font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none">
-                Precyzyjne Usługi <span className="text-accent">Budowlane</span>
+                Profesjonalne Usługi <span className="text-accent">Budowlane</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-6">
                 Specjalizujemy się w pracach wykończeniowych, glazurniczych i innych małych zadaniach budowlanych. Szybko, solidnie i z dbałością o każdy detal.
@@ -80,22 +80,23 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-12 md:py-24 bg-primary text-primary-foreground">
-        <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-heading font-bold tracking-tighter md:text-4xl text-white dark:text-foreground">
+      <section className="w-full py-16 md:py-24 bg-slate-900 text-slate-50 dark:bg-slate-950 relative overflow-hidden">
+        <div className="absolute inset-0 z-0 bg-slate-900/50 mix-blend-multiply"></div>
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="flex flex-col items-center justify-center space-y-6 text-center">
+            <div className="space-y-3">
+              <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Potrzebujesz fachowca?
               </h2>
-              <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed dark:text-muted-foreground">
+              <p className="max-w-[600px] mx-auto text-slate-300 md:text-xl/relaxed">
                 Skontaktuj się z nami już dziś, aby omówić szczegóły Twojego projektu i otrzymać bezpłatną wycenę.
               </p>
             </div>
             <Link
               href="/contact"
-              className="inline-flex h-10 items-center justify-center rounded-md bg-accent px-8 text-sm font-medium text-accent-foreground shadow transition-colors hover:bg-white hover:text-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 mt-4"
+              className="inline-flex h-12 items-center justify-center rounded-md bg-accent px-8 text-sm font-medium text-accent-foreground shadow-lg transition-transform hover:scale-105 hover:bg-accent/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent disabled:pointer-events-none disabled:opacity-50 mt-4"
             >
-              Kontakt <ArrowRight className="ml-2 h-4 w-4" />
+              Darmowa wycena <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>
